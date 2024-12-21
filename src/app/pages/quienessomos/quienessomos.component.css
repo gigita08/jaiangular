@@ -1,0 +1,88 @@
+    /*quienessomos************/
+  
+    /* Estilado para el contenedor principal */
+    .responsive-image-container {
+        text-align: center;
+        padding: 40px;
+      }
+      
+      /* Estilado responsivo para la imagen */
+      .responsive-image-container img {
+        max-width: 100%; /* La imagen nunca excederá el ancho del contenedor */
+        height: auto; /* Mantiene la proporción de la imagen */
+        border-radius: 8px; /* Bordes redondeados opcional */
+      }
+    
+    
+      /* Estilo para la sección de reseñas */
+.reviews-section {
+    padding: 20px;
+    background-color: #ffffff; /* Fondo blanco */
+    text-align: center;
+  }
+  
+  /* Contenedor para las tarjetas de reseñas */
+  .reviews-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 10px;
+  }
+  
+  /* Tarjetas individuales de reseñas */
+  .review-card {
+    background-color: #ffffff; /* Fondo blanco */
+    border: 1px solid #ddd; /* Borde ligero */
+    border-radius: 8px; /* Bordes redondeados */
+    width: 280px;
+    padding: 15px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .review-card:hover {
+    transform: translateY(-5px); /* Efecto hover */
+  }
+  
+  /* Contenido de la reseña */
+  .review-content h3 {
+    font-size: 16px;
+    margin: 5px 0;
+    color: #000000;
+  }
+  
+  .review-content p {
+    font-size: 14px;
+    color: #000000;
+    line-height: 1.4;
+  }
+  
+  .review-content h4 {
+    font-size: 16px;
+    color: rgb(255, 0, 166); /* Estilo rosa para el icono de estrellas */
+    margin: 5px 0;
+  }
+  
+   /*botones de pag***********/
+  
+   .facebook {
+    color: rgb(255, 0, 166);
+  }
+  .instagram {
+    color: rgb(255, 0, 166);
+  }
+  .tiktok {
+    color: rgb(255, 0, 166);
+  }
+  
+  .contact-links {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 10px;
+    
+  }

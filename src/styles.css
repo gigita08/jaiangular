@@ -1,0 +1,81 @@
+/* You can add global styles to this file, and also import other style files */
+/* Estilo para el título */
+.subscribe-title {
+    text-align: center;
+    font-size: 2.5rem;
+    color: rgb(255, 0, 166);
+    margin-bottom: 20px;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Estilo general del formulario */
+  .subscribe-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Estilo para los fieldsets */
+  .subscribe-form fieldset {
+    margin-bottom: 15px;
+    border: none;
+  }
+  
+  /* Estilo para las etiquetas */
+  .subscribe-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  /* Estilo para los inputs */
+  .subscribe-form input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    box-sizing: border-box;
+  }
+  
+  /* Estilo para el botón */
+  .subscribe-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(255, 0, 166);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .subscribe-button:hover {
+    background-color: rgb(200, 0, 130);
+  }
+  
+  /* Estilo para el formulario en pantallas más pequeñas */
+  @media (max-width: 480px) {
+    .subscribe-form {
+      padding: 15px;
+    }
+  
+    .subscribe-title {
+      font-size: 2rem;
+    }
+  
+    .subscribe-button {
+      font-size: 1rem;
+    }
+  }
+  
+
+
+  

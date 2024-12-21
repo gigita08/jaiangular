@@ -1,0 +1,20 @@
+<router-outlet></router-outlet>
+
+<h1 class="subscribe-title">Suscríbete</h1>
+
+<form [formGroup]="jaiForm" (submit)="handleSubmit()" class="subscribe-form">
+  <fieldset>
+    <label for="jai-name">Nombre:</label>
+    <input type="text" id="jai-name" formControlName="name">
+  </fieldset>
+  <fieldset>
+    <label for="jai-email">Correo Electrónico:</label>
+    <input type="text" id="jai-email" formControlName="email">
+  </fieldset>
+  <fieldset>
+    <label for="jai-comments">Comentarios:</label>
+    <input type="text" id="jai-comments" formControlName="comments">
+  </fieldset>
+  <button type="submit" class="subscribe-button">Enviar</button>
+</form>
+
